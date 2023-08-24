@@ -1,0 +1,97 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-image: url(download\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  table th, table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: rgb(130, 215, 187);
+  }
+  form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  input[type=text] {
+    background-color: white;
+    
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+    
+
+  label {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+a{
+    text-decoration: none;
+    color: black;
+}
+  
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: larger;
+  }
+  .form {
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+    background-image: url(./Get\ the\ We\ Heart\ It\ app!.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type=text], input[type=email] {
+    width: 100%;
+  }
+
+  button,
+  input[type="submit"] {
+    background-color: rgb(130, 215, 187);
+    color: white;
+    padding: 20px;
+    border: none;
+  }
+  
+  button:hover,
+  input[type="submit"]:hover {
+    background-color:  rgb(130, 215, 187);
+  }
+
+  input:invalid,
+  textarea:invalid {
+     border-color:red; 
+  }
+  
+  input:focus,
+  textarea:focus {
+     outline:none; 
+  }
+div.alert alert-danger text-center{
+    background-color: green;
+}
